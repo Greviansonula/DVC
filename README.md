@@ -14,6 +14,8 @@ dvc run --force \
 -o output/filter \
 python3 filter.py
 
+dvc repro
+
 dvc run --force \
 -n training \
 -p training.num_rows \

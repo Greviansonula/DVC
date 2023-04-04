@@ -1,0 +1,19 @@
+schema: '2.0'
+stages:
+  filter:
+    cmd: python3 filter.py
+    deps:
+    - path: filter.py
+      md5: 37e6211d69cac28b5b76f070d8df177d
+      size: 389
+    - path: weather-data/2006-04-10.csv
+      md5: a9e0195f384c354b50dd4e5f70828dbd
+      size: 4025
+    params:
+      params.yaml:
+        filter.value: 15
+    outs:
+    - path: output/filter
+      md5: 1f30b2cc2badabaa7aa89c824037ac96.dir
+      size: 574
+      nfiles: 1
