@@ -19,7 +19,7 @@ dvc repro
 dvc run --force \
 -n training \
 -p training.num_rows \
--d training.py -d output/filter \
+-d training.py -d output/filter -d weather-data/2006-04-10.csv \
 -o output/training \
 python3 training.py output/filter
 
