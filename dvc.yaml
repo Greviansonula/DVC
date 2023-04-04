@@ -13,6 +13,7 @@ stages:
     deps:
     - output/filter
     - training.py
+    - weather-data/2006-04-10.csv
     params:
     - training.num_rows
     outs:

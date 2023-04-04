@@ -7,7 +7,7 @@ stages:
       md5: 37e6211d69cac28b5b76f070d8df177d
       size: 389
     - path: weather-data/2006-04-10.csv
-      md5: a9e0195f384c354b50dd4e5f70828dbd
+      md5: 8bbf9965b94418240ad9c8a22f8c5042
       size: 4025
     params:
       params.yaml:
@@ -27,6 +27,9 @@ stages:
     - path: training.py
       md5: decec27f44f4ab7f6fb817403c987626
       size: 547
+    - path: weather-data/2006-04-10.csv
+      md5: 8bbf9965b94418240ad9c8a22f8c5042
+      size: 4025
     params:
       params.yaml:
         training.num_rows: 9
