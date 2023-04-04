@@ -13,5 +13,5 @@ mean = df['Temperature (C)'].mean()
 print(mean)
 os.makedirs(os.path.join("output", "training"), exist_ok=True)
 output_training = os.path.join("output", "training", "out.tsv")
-with io.open(output_training, "W", encoding="utf8") as fd_out_training:
+with io.open(output_training, "w", encoding="utf8") as fd_out_training:
     fd_out_training.write(str(mean))
