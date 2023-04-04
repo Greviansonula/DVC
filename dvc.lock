@@ -11,9 +11,9 @@ stages:
       size: 4025
     params:
       params.yaml:
-        filter.value: 15
+        filter.value: 20
     outs:
     - path: output/filter
-      md5: 1f30b2cc2badabaa7aa89c824037ac96.dir
-      size: 574
+      md5: 1837fb613728fce20b06d9eed0d5dda9.dir
+      size: 256
       nfiles: 1
