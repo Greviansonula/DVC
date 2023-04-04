@@ -1,3 +1,5 @@
 pandas
 dvc
 PyYAML
+dvc-s3
+dvc-gdrive
