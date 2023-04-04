@@ -8,3 +8,12 @@ stages:
     - filter.value
     outs:
     - output/filter
+  training:
+    cmd: python3 training.py output/filter
+    deps:
+    - output/filter
+    - training.py
+    params:
+    - training.num_rows
+    outs:
+    - output/training
