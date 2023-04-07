@@ -3,7 +3,3 @@
 ['remote "storage"']
     url = gdrive://1f36t1gMsdxSfJNQpO32I8vT7SjRnU48e
     version_aware = true
-['remote "myremote"']
-    url = gdrive://1u6lR18EaOEfqcLoVAtSl8fBKb31c8VR3
-    gdrive_client_id = 112803411064-jud7hs0ugmdne2v34jhgj3dg054anrsc.apps.googleusercontent.com
-    gdrive_client_secret = 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
