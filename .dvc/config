@@ -1,5 +1,4 @@
 [core]
     remote = storage
 ['remote "storage"']
-    url = gdrive://1f36t1gMsdxSfJNQpO32I8vT7SjRnU48e
-    version_aware = true
+    url = s3://dpartweatherdata/dvcstore
